@@ -1,10 +1,24 @@
 # Credit Risk Analysis
+
+## Table of Contents
+- [Overview](https://github.com/spicyyramen/credit_risk_analysis#overview)
+- [Results](https://github.com/spicyyramen/credit_risk_analysis#results)
+    - [Random Oversampling](https://github.com/spicyyramen/credit_risk_analysis#random-oversampling)
+    - [Oversampling - SMOTE](https://github.com/spicyyramen/credit_risk_analysis#oversampling---smote)
+    - [Undersampling - Cluster Centroids](https://github.com/spicyyramen/credit_risk_analysis#undersampling---cluster-centroids)
+    - [Combination Sampling](https://github.com/spicyyramen/credit_risk_analysis#combination-sampling---smoteenn)
+    - [Ensemble - Balanced Random Forest Classifier](https://github.com/spicyyramen/credit_risk_analysis#ensemble---balanced-random-forest-classifier)
+    - [Ensemble - Easy Ensemble Classifier](https://github.com/spicyyramen/credit_risk_analysis#ensemble---easy-ensemble-classifier)
+- [Summary & Suggestion](https://github.com/spicyyramen/credit_risk_analysis#summary--suggestion)
+
+# Overview
 The purpose of this analysis was to apply various sampling algorithms and classifiers to determine which was best suited for predicting credit risk.
 <br>
 
 # Results
 
-## Naive Random Oversampling
+
+## Random Oversampling
 The first sampling method utilized was the `RandomOverSampler` algorithm from `imblearn.over_sampling` in conjunction with the `LogisticRegression` model.<br>
 
 ### *Balanced Accuracy Score*
