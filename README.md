@@ -69,7 +69,7 @@ The accuracy score of using `SMOTE` with `LogisticRegression` was similar to nai
 Looking at the confusion matrix, this sampling method decreased the amount of low risk applications that are misclassified as high risk. However, there were still over 5000 applications misclassified as high risk, which would again prevent qualified applicants from being approved.
 <br>
 
-![Confusion Matrix- SMOTE](./images/smote_CM.png)<br>
+![Confusion Matrix- SMOTE](./images/smote_cm.png)<br>
 
 
 ### *Imbalanced Classification Report*
