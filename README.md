@@ -49,6 +49,9 @@ Recall:
 
 ### *Review*
 Overall, the various metrics utilized to evaluate the use of `RandomOverSampler` with `LogisticRegression` indicate that this model *is not* suitable for predicting credit risk.
+<br>
+
+[*jump to top*](https://github.com/spicyyramen/credit_risk_analysis#credit-risk-analysis)
 
 <br>
 <br>
@@ -83,7 +86,9 @@ Recall:
 
 ### *Review*
 Overall, the various metrics utilized to evaluate the use of `SMOTE` with `LogisticRegression` indicate that this model, while slightly better than the previous, *is not* suitable for predicting credit risk.
+<br>
 
+[*jump to top*](https://github.com/spicyyramen/credit_risk_analysis#credit-risk-analysis)
 
 <br>
 <br>
@@ -119,6 +124,9 @@ Recall:
 
 ### *Review*
 Overall, the various metrics utilized to evaluate the use of `ClusterCentroids` undersampling with `LogisticRegression` indicate that this model performed even worse than our previous oversampling methods, and *is not* suitable for predicting credit risk.
+<br>
+
+[*jump to top*](https://github.com/spicyyramen/credit_risk_analysis#credit-risk-analysis)
 
 
 <br>
@@ -155,6 +163,9 @@ Recall:
 
 ### *Review*
 Overall, the various metrics utilized to evaluate the use of `SMOTEENN` sampling with `LogisticRegression` indicate that this model performed slightly better than all previous models, but is still not very effective at predicting credit risk.
+<br>
+
+[*jump to top*](https://github.com/spicyyramen/credit_risk_analysis#credit-risk-analysis)
 
 
 <br>
@@ -191,7 +202,9 @@ Recall:
 
 ### *Review*
 Overall, the various metrics utilized to evaluate the use of `BalancedRandomForestClassifier` indicate that this model performed slightly better than all previous models, and is approaching a model with sufficient predictive power.
+<br>
 
+[*jump to top*](https://github.com/spicyyramen/credit_risk_analysis#credit-risk-analysis)
 
 <br>
 <br>
@@ -227,7 +240,13 @@ Recall:
 
 ### *Review*
 Overall, the various metrics utilized to evaluate the use of `EasyEnsembleClassifier` indicate that this model was the most effective at accurately predicting credit risk. 
+<br>
+
+[*jump to top*](https://github.com/spicyyramen/credit_risk_analysis#credit-risk-analysis)
 
 
 # Summary & Suggestion
 Based on all the models and sampling methods tested, use of the `EasyEnsembleClassifier` from `imblearn.ensemble` was by far the most effective at predicting credit risk. With an accuracy score of 93% and recall values in the 90+% range, this model is an acceptable model for this application.
+<br>
+
+[*jump to top*](https://github.com/spicyyramen/credit_risk_analysis#credit-risk-analysis)
